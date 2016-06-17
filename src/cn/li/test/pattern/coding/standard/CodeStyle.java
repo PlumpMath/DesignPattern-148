@@ -2,7 +2,7 @@ package cn.li.test.pattern.coding.standard;
 
 import java.util.Scanner;
 
-//public
+//-----------------编码风格-----------------------
 class Calculator {
 	public static void startCalculator1(){
 		Scanner sc = new Scanner(System.in);
@@ -65,6 +65,7 @@ class Calculator {
 		sc.close();
 	}
 }
+//====================编码风格=========================
 public class CodeStyle {
 	public static void main(String[] args) {
 		Calculator.startCalculator2();
